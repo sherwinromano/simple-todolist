@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background-color: #f2f2f2;
+
+    main {
+        max-width: 1200px;
+        margin: 0 10%;
+        height: auto;
+
+        // header start
+            .header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 45px 0;
+        
+                h1 {
+                    margin: 0 15px;
+                }
+        
+                .icons .fa-solid{
+                    margin: 0 15px;
+                    font-size: 25px;
+                    cursor: pointer;
+                }
+            }
+        // header section end
+
+        // todo-section start
+            .todo-section {
+                height: auto;
+                padding: 50px 15px;
+        
+                .todo {
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    min-height: 80vh;
+        
+                    .add-section {
+                        background-image: linear-gradient(to left, hsl(0, 0%, 90%) 5%, #252525);
+                        padding: 25px;
+                    
+                        #input {
+                            padding: 15px;
+                            width: 20%;
+                        }
+
+                        #input:focus {
+                            outline: none;
+                        }
+        
+                        #add {
+                            padding: 15px 18px;
+                            margin-left: 10px;
+                            cursor: pointer;
+                        }
+                    }
+        
+                    .todo-result {
+                        border: 1px solid #737373;
+                        border-radius: 2px;
+                        margin: 25px;
+                        height: auto;
+            
+                        .list {
+                            padding: 25px;
+                            padding-left: 40px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 1px solid #737373;
+                            list-style-type: upper-roman;
+
+                            button {
+                                padding: 10px 15px;
+                                cursor: pointer;
+                            }
+                        }
+            
+                        .list:last-child {
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        //todo section end
+    }
+}
+    

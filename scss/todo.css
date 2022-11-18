@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  background-color: #f2f2f2;
+}
+.content main {
+  max-width: 1200px;
+  margin: 0 10%;
+  height: auto;
+}
+.content main .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+}
+.content main .header h1 {
+  margin: 0 15px;
+}
+.content main .header .icons .fa-solid {
+  margin: 0 15px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.content main .todo-section {
+  height: auto;
+  padding: 50px 15px;
+}
+.content main .todo-section .todo {
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 80vh;
+}
+.content main .todo-section .todo .add-section {
+  background-image: linear-gradient(to left, hsl(0deg, 0%, 90%) 5%, #252525);
+  padding: 25px;
+}
+.content main .todo-section .todo .add-section #input {
+  padding: 15px;
+  width: 20%;
+}
+.content main .todo-section .todo .add-section #input:focus {
+  outline: none;
+}
+.content main .todo-section .todo .add-section #add {
+  padding: 15px 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.content main .todo-section .todo .todo-result {
+  border: 1px solid #737373;
+  border-radius: 2px;
+  margin: 25px;
+  height: auto;
+}
+.content main .todo-section .todo .todo-result .list {
+  padding: 25px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #737373;
+  list-style-type: upper-roman;
+}
+.content main .todo-section .todo .todo-result .list button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.content main .todo-section .todo .todo-result .list:last-child {
+  border-bottom: none;
+}/*# sourceMappingURL=todo.css.map */
