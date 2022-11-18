@@ -60,10 +60,6 @@ add.addEventListener("click", (e) => {
 });
 
 ol.addEventListener("click", (e) => {
-    let note = document.createElement("div");
-    note.className = "list";
-    note.innerText = "Empty Todo List";
-
     if(e.target.classList.contains("btn")) {
        let li = e.target.parentElement;
        ol.removeChild(li);
